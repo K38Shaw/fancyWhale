@@ -1,4 +1,10 @@
-main{
+img{
+    max-width: 100vw;
+    max-height: 70vh;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+section{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +23,7 @@ main{
         transform: rotate(0deg);
     }
     25% {
-        transform: scale(1.2);
+        transform: scale(1.5);
         transform: rotate(90deg);
     }
     50% {
@@ -25,7 +31,7 @@ main{
         transform: rotate(180deg);
     }
     75% {
-        transform: scale(1.2);
+        transform: scale(1.5);
         transform: rotate(270deg);
     }
     100% {
@@ -35,3 +41,5 @@ main{
 
     
 }
+
+
