@@ -5,33 +5,4 @@ main{
     justify-content: center;
     height: 100vh;
 }
-.dance{
-    animation-name: danceDanceDance;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-}
 
-@keyframes danceDanceDance {
-    0% {
-        transform: scale(1);
-        transform: rotate(0deg);
-    }
-    25% {
-        transform: scale(1.2);
-        transform: rotate(90deg);
-    }
-    50% {
-        transform: scale(1);
-        transform: rotate(180deg);
-    }
-    75% {
-        transform: scale(1.2);
-        transform: rotate(270deg);
-    }
-    100% {
-        transform: scale(1);
-        transform: rotate(359deg);
-    }
-
-    
-}

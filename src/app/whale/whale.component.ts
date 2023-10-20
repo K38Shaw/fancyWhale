@@ -15,20 +15,8 @@ startDancing(){
   this.isDancing = true;
   setTimeout(() => {
      this.isDancing = false
-    }, 3000);
+    }, 4000);
 
   }
 
-/*My Way */
-dance(){
-  if(!this.isDancing){
-    this.myWhale!.classList.add('dance');
-    console.log("I guess I could dance.")
-    this.isDancing = true;
-  }else{
-    this.myWhale!.classList.remove('dance');
-    console.log("I will not dance.")
-    this.isDancing = false;
-  }
-}
 }
